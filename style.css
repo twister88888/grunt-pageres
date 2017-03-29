@@ -1,0 +1,25 @@
+/*.button{
+  position: absolute;
+  backface-visibility: hidden;
+  transition: inherit;
+  transform: inherit;
+}*/
+
+.grid-banner__content--center, .grid-banner__content--bottom-center{
+  position: absolute;
+  left:7%;
+  top: 35%;
+  transform: inherit;
+}
+
+.c10__newsletter-dialog,
+.c14,
+.c15,
+.c15-right-side,
+.ui-dialog,
+.ui-widget-overlay,
+.ui-button-icon-primary,
+.ui-dialog-titlebar,
+.ui-dialog-title{
+  display: none;
+}

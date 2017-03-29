@@ -2,18 +2,14 @@
 module.exports = function (grunt) {
 	grunt.initConfig({
 		pageres: {
-			screenshot: {
-				options: {
-					urls: 'yeoman.io',
-					sizes: ['1000x1000', '100x100'],
-					dest: 'tmp'
-				}
-			},
 			multipleUrls: {
 				options: {
-					urls: ['yeoman.io', 'google.com'],
-					sizes: ['1000x1000'],
-					dest: 'tmp'
+					urls: ['myspringfield.com', 'womensecret.com', 'cortefiel.com', 'pedrodelhierro.com', 'fiftyfactory.com'],
+					sizes: ['1600x1000'],
+					dest: 'tmp',
+					format: 'jpg',
+					/*filename: '{{date}} - {{url}}',*/
+					css: 'style.css'
 				}
 			}
 		}
